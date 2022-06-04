@@ -11812,7 +11812,7 @@ textarea.form-control-lg {
 .display-3--title {
   font-size: 1.1rem;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   display: inline-block;
   background-image: linear-gradient(to right, #9926f0, #d122e3);
@@ -11822,7 +11822,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .display-3--title {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -11978,6 +11978,23 @@ textarea.form-control-lg {
 }
 .framework--box img:hover {
   filter: grayscale(50%);
+}
+
+.project-section {
+  padding: 2.5rem 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .video-size {
+    width: 460px;
+    height: 216px;
+  }
+}
+@media (min-width: 992px) {
+  .video-size {
+    width: 760px;
+    height: 410px;
+  }
 }
 
 .radio {

@@ -1,3 +1,6 @@
+@use '../custom' as *;
+@use '../components/mixins' as *; 
+
 .skill-section {
     padding: 10rem 0 0 0;
     width: 100%;
@@ -55,4 +58,25 @@
 
 
     }
+}
+
+.project-section {
+    padding: 2.5rem 0 0 0;
+
+}
+
+.video-size {
+
+    @include media-breakpoint-up(md){
+        width: 460px;
+        height: 216px;
+
+    
+    }
+
+    @include media-breakpoint-up(lg){
+        width: 760px;
+        height: 410px;
+    }
+
 }
