@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.radio {
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    border-radius: 30px;
+}
+
+.checkbox {
+    color: $primary;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+
+}

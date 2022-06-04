@@ -20,6 +20,9 @@ $black:    #000;
 $primary: $purple-dark;
 $secondary: $pink; 
 
+// select overrides
+$form-select-color:                 $primary;
+
 // accordian overrides
 $accordion-icon-color:                    $primary;
 $accordion-icon-active-color:             $secondary;

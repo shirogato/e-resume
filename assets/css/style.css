@@ -2347,7 +2347,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #9926f0;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2377,7 +2377,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #212529;
+  text-shadow: 0 0 0 #9926f0;
 }
 
 .form-select-sm {
@@ -11810,7 +11810,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-3--title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: capitalize;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -11848,6 +11848,10 @@ textarea.form-control-lg {
 
 .gradient {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
+.label {
+  color: rgba(153, 38, 240, 0.95);
 }
 
 .menu {
@@ -11916,6 +11920,17 @@ textarea.form-control-lg {
 }
 .education--logo-box img:hover {
   filter: grayscale(50%);
+}
+
+.radio {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  border-radius: 30px;
+}
+
+.checkbox {
+  color: #9926f0;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
 }
 
 .get-started {
