@@ -80,3 +80,15 @@
     color: rgba($primary,0.95)
 }
 
+.desc {    
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1px;
+    font-weight: 600;
+
+    &--level {
+        margin-top: 1px;
+        font-weight: 400;
+    
+    }
+}
+

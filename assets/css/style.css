@@ -11854,6 +11854,16 @@ textarea.form-control-lg {
   color: rgba(153, 38, 240, 0.95);
 }
 
+.desc {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+.desc--level {
+  margin-top: 1px;
+  font-weight: 400;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -11916,9 +11926,57 @@ textarea.form-control-lg {
   position: relative;
 }
 .education--logo-box img {
-  height: 200%;
+  height: 100%;
 }
 .education--logo-box img:hover {
+  filter: grayscale(50%);
+}
+
+.skill-section {
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.programming-language {
+  padding: 0 0 3rem 0;
+}
+.programming-language--box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 7rem;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+.programming-language--box img {
+  height: 200%;
+}
+.programming-language--box img:hover {
+  filter: grayscale(50%);
+}
+
+.framework-section {
+  padding: 2rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.framework {
+  padding: 0 0 3rem 0;
+}
+.framework--box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 7rem;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+.framework--box img {
+  height: 200%;
+}
+.framework--box img:hover {
   filter: grayscale(50%);
 }
 
