@@ -34,5 +34,10 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 
 $accordion-padding-y:                     1.5rem;
 $accordion-padding-x:                     1.5rem;
+
+// table border overrides
+$table-border-width:          2px;
+$table-border-color:          $primary;
+
 // import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
