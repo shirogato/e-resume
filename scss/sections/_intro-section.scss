@@ -3,7 +3,14 @@
 
 .intro-section{
     @include gradient;
-    padding: 10rem 0 0 0;
+    padding: 6rem 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-section-first{
+    @include gradient;
+    padding: 6rem 0 4rem 0;
     width: 100%;
     height: 100%;
 }
@@ -14,7 +21,7 @@
         position: relative;
 
         &--img {
-            padding-left: 4rem; 
+            padding-left: 1rem; 
 
         }
 
@@ -34,9 +41,22 @@
 
     }
 
+    .image-box-intro {
+        position: relative;
+        max-width: 50%;
+        border-radius: 50%;
+
+
+    }
+
+
     .image-box {
         // padding-left: 4rem;
-        position: center; 
+        padding-bottom: 2rem;
+        position: relative;
+        top: 1rem;
+        bottom: 1rem;
+        left: 1rem;
         max-width: 90%;
         height: auto;
         border-radius: 50%;
@@ -61,6 +81,38 @@
 
     &--border-2 {
         animation-delay: 1.5s;
+    }
+
+}
+
+.social-media-section {
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-media {
+    padding: 0 0 3rem 0;
+
+    &--box {
+        max-width: 100%;
+        height: 3rem;
+        margin-bottom: 7rem;
+        padding: 0;
+        text-align: center;
+        position: relative;
+
+        img {
+            height: 200%;
+            transition: all 0.25s;
+
+            &:hover {
+                transform: translateY(-0.25em);
+            }
+
+        }
+
+
     }
 
 }

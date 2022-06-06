@@ -2,7 +2,7 @@
 @use '../components/mixins' as *;
 
 .get-started {
-    padding: 4rem 0;
+    padding: 7rem 0;
     background-color: $gray-200;
 }
 
@@ -42,5 +42,9 @@
             text-transform: capitalize;
         }
     }
+}
+
+.table-header {
+    background-color: #F3904F;
 }
 

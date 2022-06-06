@@ -3,6 +3,15 @@
 
 .footer {
     padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: $footer;
+
+    &--btn {
+        float: right; 
+    }
+
 }
 
+.wave {
+    @include gradient;
+}
