@@ -11877,7 +11877,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-4--description {
-  font-size: 0.5rem;
+  font-size: 1rem;
   display: block;
   color: #fff;
   margin-top: 1.2rem;
@@ -11885,7 +11885,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .display-4--description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: inline-block;
   }
 }
